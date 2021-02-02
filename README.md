@@ -22,23 +22,17 @@ In this project, a deep convolutional generative advasarial network (DCGAN) is d
 
 ## File Descriptions <a name="files"></a>
 
-### Folders: 
-**processed_celeba_small:** contains the preprocessed image files
+* **dlnd_face_generation.ipynb:** the main notebook contains all the codes
 
-**images:** contains the images used in the notebooks or test sample images
+* **dlnd_face_generation.html:** html format of dlnd_face_generation.ipynb
 
-### Files:
-**dlnd_face_generation.ipynb:** the main notebook contains all the codes
+* **workspace_utils.py:** functions used in the notebooks
 
-**dlnd_face_generation.html:** html format of dlnd_face_generation.ipynb
+* **problem_unittests.py** unit test functions
 
-**workspace_utils.py:** functions used in the notebooks
+* **sample_images.png** sample training faces
 
-**problem_unittests.py** unit test functions
-
-**sample_images.png** sample training faces
-
-**sample_result.png** sample generated faces
+* **sample_result.png** sample generated faces
 
 ## Results<a name="results"></a>
 
