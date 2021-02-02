@@ -23,7 +23,7 @@ In this project, a deep convolutional generative advasarial network (DCGAN) is d
 ## File Descriptions <a name="files"></a>
 
 ### Folders 
-### **images:** contains image reults
+#### **images:** 
 
 * **sample_images.png** sample training faces
 
@@ -46,6 +46,7 @@ In this project, a deep convolutional generative advasarial network (DCGAN) is d
 ## Results<a name="results"></a>
 
 The training losses of the descriminator and generator is given below:
+
 <img src="images/training_losses.png"/> 
 
 Faces start to emerger with the increase of training epochs. Some sample results are given below:
