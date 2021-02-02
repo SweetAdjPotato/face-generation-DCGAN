@@ -13,7 +13,7 @@
 
 In this project, a deep convolutional generative advasarial network (DCGAN) is designed and trained on the [CelebFaces Attributes Dataset (CelebA)](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). The goal is to train the generator to generate new images of faces that look as realistic as possible. The imput images are preprocessed and resized to 32 by 32 to reduce training time. Sample images are given below.
 
-<img src="images/sample_images.png"/> 
+<img src="images/sample_images.png" width ='800' height = '100'/> 
 
 ## Installation <a name="installation"></a>
 
