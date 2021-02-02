@@ -32,13 +32,21 @@ In this project, a deep convolutional generative advasarial network (DCGAN) is d
 
 * **sample_images.png** sample training faces
 
-* **sample_result.png** sample generated faces
+* **sample_result_epoch1.png** sample generated faces at epoch 1
+
+* **sample_result_epoch20.png** sample generated faces at epoch 20
 
 ## Results<a name="results"></a>
 
-Some sample results are given below.
+Faces start to emerger with the increase of training epochs. Some sample results are given below.
 
-<img src="sample_result.png"/> 
+Epoch 1:
+
+<img src="sample_result_epoch1.png"/> 
+
+Epoch 20:
+
+<img src="sample_result_epoch20.png"/> 
 
 ## Discussion<a name="discussion"></a>
 
