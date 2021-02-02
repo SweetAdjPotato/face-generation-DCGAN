@@ -13,7 +13,7 @@
 
 In this project, a deep convolutional generative advasarial network (DCGAN) is designed and trained on the [CelebFaces Attributes Dataset (CelebA)](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). The goal is to train the generator to generate new images of faces that look as realistic as possible. The imput images are preprocessed and resized to 32 by 32 to reduce training time. Sample images are given below.
 
-<img src="sample_images.png"/> 
+<img src="images/sample_images.png"/> 
 
 ## Installation <a name="installation"></a>
 
@@ -22,6 +22,19 @@ In this project, a deep convolutional generative advasarial network (DCGAN) is d
 
 ## File Descriptions <a name="files"></a>
 
+### Folders 
+### **images:** contains image reults
+
+* **sample_images.png** sample training faces
+
+* **sample_result_epoch1.png** sample generated faces at epoch 1
+
+* **sample_result_epoch20.png** sample generated faces at epoch 20
+
+* **training_losses.png** sample generated faces at epoch 20
+
+
+### Files
 * **dlnd_face_generation.ipynb:** the main notebook contains all the codes
 
 * **dlnd_face_generation.html:** html format of dlnd_face_generation.ipynb
@@ -30,23 +43,20 @@ In this project, a deep convolutional generative advasarial network (DCGAN) is d
 
 * **problem_unittests.py** unit test functions
 
-* **sample_images.png** sample training faces
-
-* **sample_result_epoch1.png** sample generated faces at epoch 1
-
-* **sample_result_epoch20.png** sample generated faces at epoch 20
-
 ## Results<a name="results"></a>
 
-Faces start to emerger with the increase of training epochs. Some sample results are given below.
+The training losses of the descriminator and generator is given below:
+<img src="images/training_losses.png"/> 
+
+Faces start to emerger with the increase of training epochs. Some sample results are given below:
 
 Epoch 1:
 
-<img src="sample_result_epoch1.png"/> 
+<img src="images/sample_result_epoch1.png"/> 
 
 Epoch 20:
 
-<img src="sample_result_epoch20.png"/> 
+<img src="images/sample_result_epoch20.png"/> 
 
 ## Discussion<a name="discussion"></a>
 
