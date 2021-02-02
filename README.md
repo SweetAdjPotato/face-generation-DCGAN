@@ -31,9 +31,6 @@ In this project, a deep convolutional generative advasarial network (DCGAN) is d
 
 * **sample_result_epoch20.png** sample generated faces at epoch 20
 
-* **training_losses.png** sample generated faces at epoch 20
-
-
 ### Files
 * **dlnd_face_generation.ipynb:** the main notebook contains all the codes
 
@@ -44,10 +41,6 @@ In this project, a deep convolutional generative advasarial network (DCGAN) is d
 * **problem_unittests.py** unit test functions
 
 ## Results<a name="results"></a>
-
-The training losses of the descriminator and generator is given below:
-
-<img src="images/training_losses.png"/> 
 
 Faces start to emerger with the increase of training epochs. Some sample results are given below:
 
